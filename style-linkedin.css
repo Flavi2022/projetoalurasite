@@ -1,0 +1,78 @@
+
+#banner {
+    width:100%;
+    border: 2px solid #000000;
+    border-radius: 10px 20px 30px 40px;
+} 
+.principal{
+    background: #cccccc;
+    padding: 30px;
+    border: 2px solid #000000;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.titulo-principal {
+    padding-left:20px;
+}
+
+.titulo-centralizado {
+    text-align:center;   
+}
+
+p {
+    text-align:center; 
+}
+
+#missao {
+    font-size:20px;  
+}
+em strong {
+    color: #FF0000;
+}
+
+.itens {
+    font-style:italic;
+    
+}
+
+.conhecimento {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+   
+}
+.imagem-conhecimento{
+    width: 50%;
+    border: 2px solid #000000;
+    border-radius: 10px 20px 30px 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conhecimento, .mapa-conteudo, .video {
+        width: auto;
+       
+    }
+
+    h1 {
+        text-align:center;
+    }
+
+    nav {
+      position:static;
+    }
+
+    .lista-conhecimento, .imagem-conhecimento{
+ width: 100%;
+    }
+
+}
+
+
+
+
